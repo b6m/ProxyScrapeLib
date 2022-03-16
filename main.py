@@ -1,0 +1,3 @@
+from ProxyScrape import *
+
+scrape()
