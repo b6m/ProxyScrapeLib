@@ -2,7 +2,6 @@ import requests
 import colorama
 from colorama import Fore, init
 import time
-start_time = time.time()
 
 def scrape():
     init(convert=True)
