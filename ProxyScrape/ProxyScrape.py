@@ -7,7 +7,6 @@ def scrape():
     init(convert=True)
     ProxyAmount = 0
     try:
-
         f = open("./proxies.txt", "w+")
         base_url = "https://api.proxyscrape.com/?request=displayproxies&proxytype=http&timeout=5000"
         r = requests.get(base_url)
